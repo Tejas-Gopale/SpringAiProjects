@@ -43,6 +43,14 @@
 			<artifactId>spring-ai-starter-model-openai</artifactId>
 		</dependency>
 
+		<!-- Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>4.1.2</version>
+			<scope>compile</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -68,7 +76,7 @@
 
 	<build>
 <!--		<defaultGoal>clean install</defaultGoal>-->
-		<defaultGoal>spring-boot:run</defaultGoal>
+<!--		<defaultGoal>spring-boot:run</defaultGoal>-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
